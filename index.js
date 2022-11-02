@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const { config } require("dotenv");
 const cheerio = require("cheerio");
 const rp = require("request-promise");
-const { WebhookClient, EmbedBuilder } require("discord.js");
+const { WebhookClient, EmbedBuilder } = require("discord.js");
 const monk = require("monk");
 const { customAlphabet } require("nanoid");
 config()
